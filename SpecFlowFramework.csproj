@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>1.1.10</Version>
+    <Authors>Alessandro Corbanesi</Authors>
+    <Company>Luxfacta</Company>
+    <Product>Luxfacta SpecFlow Framework</Product>
+    <Description>Framework de automação de testes em .Net Core utilizando SpecFlow e NUnit</Description>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Atlassian.SDK" Version="12.4.0" />
+		<PackageReference Include="DotNetSeleniumExtras.PageObjects.Core" Version="3.12.0" />
+		<PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+		<PackageReference Include="ExtentReports.Core" Version="1.0.3" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+		<PackageReference Include="NUnit" Version="3.13.1" />
+		<PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+		<PackageReference Include="Selenium.Support" Version="3.141.0" />
+		<PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="90.0.4430.2400" />
+		<PackageReference Include="SpecFlow" Version="3.7.38" />
+		<PackageReference Include="SpecFlow.NUnit" Version="3.7.38" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="specflow.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="TestReport\" />
+	</ItemGroup>
+
+</Project>

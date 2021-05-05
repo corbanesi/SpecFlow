@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+	<TestRunParameters>
+		<Parameter name="URL" value="http://google.com" />
+		<Parameter name="BROWSER_TYPE" value="ChromeHeadless" />
+		<Parameter name="HUB_URL" value="http://192.168.0.112:4444/wd/hub" />
+		
+		<Parameter name="IMPLICIT_WAIT" value="10" />
+		<Parameter name="EXPLICIT_WAIT" value="30" />
+		
+		<Parameter name="GENERATE_REPORT" value="true" />
+		<Parameter name="REPORT_FOLDER" value="" />
+		<Parameter name="TAKE_SCREENSHOT" value="OnlyErrors" />
+		
+		<Parameter name="JIRA_INTEGRATION" value="false" />
+		<Parameter name="JIRA_URL" value="" />
+		<Parameter name="JIRA_USER" value="" />
+		<Parameter name="JIRA_TOKEN" value="" />
+
+		<Parameter name="JIRA_PROJECT" value="" />
+		<Parameter name="JIRA_PARENT_ISSUE" value="" />
+		
+	</TestRunParameters>
+</RunSettings>
