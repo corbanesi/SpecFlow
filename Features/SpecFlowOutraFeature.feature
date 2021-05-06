@@ -11,7 +11,7 @@ Cenário: Qualquer cenário
 Cenário: Cenário com tabela horizontal
 	Dado que eu tenha um model de usuários
 		| Nome                 | E-mail                  | Data de Nascimento |
-		| Alessandro Corbanesi | acorbanesi@luxfacta.com | 30/09/1993         |
+		| Alessandro Corbanesi | email@email.com | 30/09/1993         |
 	Quando eu fizer isso
 	Então eu terei isso
 
@@ -19,7 +19,7 @@ Cenário: Cenário com tabela vertical
 	Dado que eu tenha um model de usuários
 		| Campo              | Valor                   |
 		| Nome               | Alessandro Corbanesi    |
-		| E-mail             | acorbanesi@luxfacta.com |
+		| E-mail             | email@email.com |
 		| Data de nascimento | 30/09/1993              |
 	Quando eu fizer isso
 	Então eu terei isso
