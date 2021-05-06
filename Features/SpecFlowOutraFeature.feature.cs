@@ -147,7 +147,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "Data de Nascimento"});
                 table1.AddRow(new string[] {
                             "Alessandro Corbanesi",
-                            "acorbanesi@luxfacta.com",
+                            "email@email.com",
                             "30/09/1993"});
 #line 12
  testRunner.Given("que eu tenha um model de usuários", ((string)(null)), table1, "Dado ");
@@ -197,7 +197,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "Alessandro Corbanesi"});
                 table2.AddRow(new string[] {
                             "E-mail",
-                            "acorbanesi@luxfacta.com"});
+                            "email@email.com"});
                 table2.AddRow(new string[] {
                             "Data de nascimento",
                             "30/09/1993"});
